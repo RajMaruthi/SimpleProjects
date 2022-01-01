@@ -1,0 +1,33 @@
+package com.web.test;
+
+import java.io.FileInputStream;
+
+public class ReadExcelSheet 
+{
+
+	public static void main(String[] args)
+	{
+		
+		
+
+	}
+	
+	static void readExcelSheet()
+	{
+		FileInputStream fin=null;
+		
+		try
+		{
+			
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+		finally
+		{
+			
+		}
+	}
+
+}

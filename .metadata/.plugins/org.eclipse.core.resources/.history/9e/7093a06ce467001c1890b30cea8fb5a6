@@ -1,0 +1,9 @@
+package com.practices;
+
+public class PrintRangeOfOdd 
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}

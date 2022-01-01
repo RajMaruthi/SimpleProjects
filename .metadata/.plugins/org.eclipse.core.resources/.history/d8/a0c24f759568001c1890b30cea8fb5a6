@@ -1,0 +1,16 @@
+package com.practices;
+
+public class StringPolindrome 
+{
+
+	public static void main(String[] args)
+	{
+		
+	}
+	
+	static void sortMethod(String strName)
+	{
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.web.test;
+
+public class TestWebsite 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+	
+	
+	static void launchBrowser()
+	{
+		
+	}
+
+}

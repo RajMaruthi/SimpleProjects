@@ -1,0 +1,15 @@
+package com.practices;
+
+public class StringPolindrome 
+{
+
+	public static void main(String[] args)
+	{
+		
+		String strName="Maruthi";
+		String strRev="";
+		for(int i=strName.length()-1;)
+
+	}
+
+}

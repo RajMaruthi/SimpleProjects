@@ -1,0 +1,30 @@
+package com.practices;
+abstract class Person
+{
+	abstract void displayName();
+	abstract void displayAge();
+	
+	void displayGender()
+	{
+		System.out.println("Male");
+	}
+	
+	static void displayBloodGroup()
+	{
+		System.out.println("O+ve");
+	}
+	
+}
+
+
+
+public class AbstractionDemo 
+{
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

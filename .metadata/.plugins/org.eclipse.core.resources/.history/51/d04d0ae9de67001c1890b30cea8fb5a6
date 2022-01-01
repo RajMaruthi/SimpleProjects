@@ -1,0 +1,13 @@
+package com.practices;
+
+public class AramStrongNumber 
+{
+
+	public static void main(String[] args)
+	{
+		
+		int n=371;
+
+	}
+
+}

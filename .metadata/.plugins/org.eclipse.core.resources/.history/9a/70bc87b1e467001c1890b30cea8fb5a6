@@ -1,0 +1,13 @@
+package com.practices;
+
+public class CheckPositiveNumber 
+{
+
+	public static void main(String[] args)
+	{
+		
+		int n=10;
+
+	}
+
+}

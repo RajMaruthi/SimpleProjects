@@ -1,0 +1,32 @@
+package com.practices;
+abstract class Person
+{
+	void displayName()
+	{
+		
+	}	
+	void displayAge()
+	{
+		
+	}
+	
+	void displayGender()
+	{
+		System.out.println("Male");
+	}
+	
+	
+}
+
+
+
+public class AbstractionDemo 
+{
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

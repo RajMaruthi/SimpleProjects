@@ -1,0 +1,20 @@
+package com.web.test;
+
+import org.openqa.selenium.WebDriver;
+
+public class TestWebsite 
+{
+    static WebDriver driver=null;
+	public static void main(String[] args) 
+	{
+		
+
+	}
+	
+	
+	static void launchBrowser()
+	{
+		
+	}
+
+}

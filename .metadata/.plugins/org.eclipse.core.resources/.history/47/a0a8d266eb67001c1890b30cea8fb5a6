@@ -1,0 +1,42 @@
+package com.practices;
+
+public class LargestElementOfArray {
+
+	public static void main(String[] args)
+	{
+		
+		int[] arr= {30,2,1,90,20,10,3};
+		for(int i=0;i<arr.length;i++)
+		{
+			for(int j=i+1;j<arr.length;j++)
+			{
+				if(arr[i]>arr[j])
+				{
+					int temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+			}
+			System.out.println(arr[i]);
+			
+		}
+		System.out.println("The largest element of Array is: "+arr[arr.length-1]);
+
+	}
+	
+	static void largestElementInArry()
+	{
+		
+		int a[]= {20,1,40,3,60,50};
+		int max=a[0];
+		for(int i=0;i<a.length;i++)
+		{
+			if(a[i]>max)
+			{
+				max=a[i];
+			}
+		}
+		System.out.println(max);
+	}
+
+}

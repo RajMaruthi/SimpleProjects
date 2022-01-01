@@ -1,0 +1,26 @@
+package com.web.test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TestWebsite 
+{
+    static WebDriver driver=null;
+	public static void main(String[] args) 
+	{
+		
+
+	}
+	
+	
+	static void launchBrowser()
+	{
+		String strpath=System.getProperty("user.dir")+"\\Libraries\\Drivers\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", strpath);
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.techlistic.com/p/selenium-practice-form.html");
+		
+	}
+
+}

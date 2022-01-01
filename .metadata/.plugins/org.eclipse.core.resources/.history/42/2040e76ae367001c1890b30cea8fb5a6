@@ -1,0 +1,15 @@
+package com.practices;
+
+public class RangeOfPrimeNumber 
+{
+
+	public static void main(String[] args)
+	{
+		
+		int n=10;
+		int m=50;
+		int flag=0;
+
+	}
+
+}

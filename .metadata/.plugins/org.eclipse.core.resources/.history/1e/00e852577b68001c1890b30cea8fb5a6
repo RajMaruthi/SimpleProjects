@@ -1,0 +1,27 @@
+package com.practices;
+
+public class StringPolindrome 
+{
+
+	public static void main(String[] args)
+	{
+		
+		String strName="Maruthi";
+		String strRev="";
+		for(int i=strName.length()-1;i>=0;i--)
+		{
+			strRev+=strName.charAt(i);
+		}
+		
+		if(strRev.equals(strName))
+		{
+			System.out.println("The given string is polindrome");
+		}
+		else
+		{
+			System.out.println("The given string is not polindrome");
+		}
+
+	}
+
+}

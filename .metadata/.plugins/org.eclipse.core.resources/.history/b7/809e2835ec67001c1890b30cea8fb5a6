@@ -1,0 +1,13 @@
+package com.practices;
+
+public class SmallestNumberOfArray {
+
+	public static void main(String[] args) 
+	{
+		int[] arr= {20,1,40,30,13};
+		int min=arr[0];
+		
+
+	}
+
+}

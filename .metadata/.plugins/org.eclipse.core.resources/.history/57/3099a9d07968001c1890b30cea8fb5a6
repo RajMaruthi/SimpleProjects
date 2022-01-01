@@ -1,0 +1,13 @@
+package com.practices;
+
+public class SumOfDigits
+{
+
+	public static void main(String[] args)
+	{
+		
+		int num=123;
+
+	}
+
+}

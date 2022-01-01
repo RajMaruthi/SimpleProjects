@@ -1,0 +1,36 @@
+package com.web.test;
+
+import java.io.FileInputStream;
+
+import org.apache.poi.ss.usermodel.Workbook;
+
+public class ReadExcelSheet 
+{
+
+	public static void main(String[] args)
+	{
+		
+		
+
+	}
+	
+	static void readExcelSheet()
+	{
+		FileInputStream fin=null;
+		Workbook wb=null;
+		
+		try
+		{
+			
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+		finally
+		{
+			
+		}
+	}
+
+}

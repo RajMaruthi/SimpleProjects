@@ -1,0 +1,58 @@
+package com.practices;
+abstract class Person
+{
+	Person()
+	{
+		System.out.println("Default constructor");
+	}
+	abstract void displayName();
+	abstract void displayAge();
+	
+	void displayGender()
+	{
+		System.out.println("Male");
+	}
+	
+	static void displayBloodGroup()
+	{
+		System.out.println("O+ve");
+	}
+	
+}
+
+class Person1 extends Person
+{
+	void displayName()
+	{
+		System.out.println("Maruthiraja");
+	}
+	void displayAge()
+	{
+		System.out.println("30");
+	}
+}
+
+
+
+public class AbstractionDemo 
+{
+
+	public static void main(String[] args)
+	{
+		
+		Person p=new Person1();
+		p.displayAge();
+		p.displayGender();
+		p.displayName();
+		Person.displayBloodGroup();
+		
+		System.out.println("------------------------------------------------");
+		
+		Person1 p1=new Person1();
+		p1.displayAge();
+		p1.displayGender();
+		p1.displayName();
+		Person1.displayBloodGroup();
+	}
+
+}

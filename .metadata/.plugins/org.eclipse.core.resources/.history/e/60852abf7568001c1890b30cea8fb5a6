@@ -1,0 +1,33 @@
+package com.practices;
+interface Actor
+{
+	void actor();
+}
+interface Producer
+{
+	void producer();
+}
+interface Director
+{
+	void director();
+}
+
+class darshan implements Actor,Producer
+{
+	public void actor()
+	{
+		System.out.println("Darshan is a actor");
+	}
+}
+
+
+public class InterfaceDemo 
+{
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}
